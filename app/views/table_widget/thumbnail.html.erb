@@ -1,11 +1,3 @@
-<div class="scrivito_editing_widget_visualization">
-  <%= image_tag("table.png") %>
-</div>
-
-<div class="scrivito_editing_widget_title">
-  Table
-</div>
-
-<div class="scrivito_editing_widget_description">
-  Add an inline editable table to your page.
-</div>
+<%= scrivito_thumbnail t('scrivito_table_widget.thumbnail.title', default: 'Table'), image_tag("table.png") do %>
+  <%= t('scrivito_table_widget.thumbnail.description', default: 'Add an inline editable table to your page')%>
+<% end %>

@@ -33,3 +33,15 @@ $.fn.edittable.defaults.colorClasses = ['your', 'background', 'class', 'names']
 ```
 
 Please make sure, that you have set the background colors for the named class in your css.
+
+## Localization
+
+The following code represents the default localization for English. Copy it to your `en.yml` and change it if necessary:
+
+```yaml
+en:
+  scrivito_table_widget:
+    thumbnail:
+      title: Table
+      description: Add an inline editable table to your page
+```
