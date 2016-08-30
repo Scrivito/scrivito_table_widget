@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    scrivito_table_widget (0.7.4)
+    scrivito_table_widget (0.7.5)
       font-awesome-rails
       scrivito
 
@@ -152,4 +152,4 @@ DEPENDENCIES
   scrivito_table_widget!
 
 BUNDLED WITH
-   1.11.2
+   1.12.5
