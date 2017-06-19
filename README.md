@@ -16,6 +16,11 @@ Add this line to your application stylesheet manifest:
 
     *= require scrivito_table_widget
 
+If you use `sass-rails` for your application stylesheet manifest (e.g. `application.scss` or `application.css.scss`) add the following:
+
+    @import "scrivito_table_widget/application";
+    @import "scrivito_table_widget/editing";
+
 You have to activate the table editor in your select editor JavaScript:
 
 ```js
